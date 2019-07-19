@@ -1,0 +1,8 @@
+query allPostsQuery{
+    allPosts(orderBy: createdAt_DESC){
+        id
+        title
+        description
+        imageUrl
+    }
+}
